@@ -7,7 +7,7 @@
       name="description"
       content="Full Stack Web Developer Portfolio - Building modern, scalable web applications"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <meta
       name="keywords"
       content="Full Stack Developer, Web Developer, React, Node.js, Portfolio"
@@ -15,7 +15,7 @@
     <title>Full Stack Developer | Portfolio</title>
     <script src="/_sdk/element_sdk.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
   </head>
   <body class="h-full w-full bg-slate-900 text-white">
@@ -49,78 +49,74 @@
     </nav>
     <main class="w-full">
       <!-- Hero Section -->
-       
+
       <section
         id="home"
-        class="min-h-screen flex items-center justify-center px-6 pt-20" 
+        class="min-h-screen flex items-center justify-center px-6 pt-20"
       >
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center fade-in">
+        <div
+          class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center fade-in"
+        >
+          <!-- LEFT: Photo -->
+          <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+            <div
+              class="w-72 h-72 md:w-80 md:h-80 bg-gradient-to-tr from-cyan-400 to-blue-500 p-1"
+              style="border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%"
+            >
+              <img
+                src="assets/1697873284553.jpg"
+                alt="Aniket Ranjan Roy"
+                class="w-full h-full object-cover"
+                style="border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%"
+              />
+            </div>
+          </div>
 
-  <!-- LEFT: Photo -->
-  <div class="w-full md:w-1/2 flex justify-center md:justify-start">
-    <div
-      class="w-72 h-72 md:w-80 md:h-80 bg-gradient-to-tr from-cyan-400 to-blue-500 p-1"
-      style="border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;"
-    >
-      <img
-        src="assets/1697873284553.jpg"
-        alt="Aniket Ranjan Roy"
-        class="w-full h-full object-cover"
-        style="border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;"
-      />
-    </div>
-  </div>
+          <!-- RIGHT: Text -->
+          <div class="w-full md:w-1/2 text-center md:text-left">
+            <div class="mb-6">
+              <span
+                class="inline-block px-4 py-2 rounded-full text-sm font-medium"
+                style="
+                  background: rgba(6, 182, 212, 0.1);
+                  border: 1px solid rgba(6, 182, 212, 0.3);
+                  color: #06b6d4;
+                "
+                >👋 Welcome to my portfolio</span
+              >
+            </div>
 
-  <!-- RIGHT: Text -->
-  <div class="w-full md:w-1/2 text-center md:text-left">
-    <div class="mb-6">
-      <span
-        class="inline-block px-4 py-2 rounded-full text-sm font-medium"
-        style="
-          background: rgba(6, 182, 212, 0.1);
-          border: 1px solid rgba(6, 182, 212, 0.3);
-          color: #06b6d4;
-        "
-        >👋 Welcome to my portfolio</span
-      >
-    </div>
+            <h1
+              id="heroName"
+              class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+            >
+              Aniket Ranjan Roy
+            </h1>
 
-    <h1
-      id="heroName"
-      class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
-    >
-      Aniket Ranjan Roy
-    </h1>
+            <p class="text-3xl font-semibold mb-4">Full Stack Web Developer</p>
 
-    <p class="text-3xl font-semibold mb-4">
-      Full Stack Web Developer
-    </p>
+            <p id="heroTagline" class="text-xl text-gray-400 mb-8 max-w-xl">
+              Hey there! I’m a web developer who loves creating modern websites
+              and applications that are not only functional, but also enjoyable
+              to use.
+            </p>
 
-    <p
-      id="heroTagline"
-      class="text-xl text-gray-400 mb-8 max-w-xl"
-    >
-      Hey there! I’m a web developer who loves creating modern websites and applications that are not only functional, but also enjoyable to use.
-    </p>
-
-    <div class="flex gap-4 justify-center md:justify-start flex-wrap">
-      <a
-        href="#projects"
-        class="btn-primary px-8 py-3 rounded-lg font-medium"
-        >View Projects</a
-      >
-      <a
-        href="assets/Aniket Ranjan Roy Resume.pdf"
-        download
-        class="btn-secondary px-8 py-3 rounded-lg font-medium"
-        >Download Resume</a
-      >
-    </div>
-  </div>
-
-</div>
-
-      </section> 
+            <div class="flex gap-4 justify-center md:justify-start flex-wrap">
+              <a
+                href="#projects"
+                class="btn-primary px-8 py-3 rounded-lg font-medium"
+                >View Projects</a
+              >
+              <a
+                href="assets/Aniket Ranjan Roy Resume.pdf"
+                download
+                class="btn-secondary px-8 py-3 rounded-lg font-medium"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- About Section -->
       <section id="about" class="py-20 px-6">
         <div class="max-w-4xl mx-auto">
@@ -132,12 +128,10 @@
           </h2>
           <div class="glass-card rounded-2xl p-8">
             <p id="aboutText" class="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate Full Stack Web Developer with expertise in
-              building modern, scalable web applications. With a strong
-              foundation in both frontend and backend technologies, I create
-              seamless user experiences backed by robust server-side logic. I'm
-              constantly learning and adapting to new technologies to deliver
-              cutting-edge solutions that solve real-world problems.
+              I am a BCA student and full stack developer with hands-on
+              experience in HTML, CSS, JavaScript, Node.js, Express, and
+              MongoDB. I build responsive, user-focused web applications and
+              deploy real-world projects.
             </p>
           </div>
         </div>
@@ -198,7 +192,7 @@
                   class="skill-badge px-4 py-2 rounded-lg text-sm font-medium"
                   >MongoDB</span
                 >
-    
+
                 <span
                   class="skill-badge px-4 py-2 rounded-lg text-sm font-medium"
                   >REST APIs</span
@@ -283,9 +277,12 @@
             <!-- Project 2 -->
             <div class="glass-card rounded-2xl p-6 project-card">
               <div class="mb-4"><span class="text-4xl">🏨</span></div>
-              <h3 class="text-2xl font-bold mb-3">Airbnb Hotel Booking Website</h3>
+              <h3 class="text-2xl font-bold mb-3">
+                Airbnb Hotel Booking Website
+              </h3>
               <p class="text-gray-400 mb-4">
-                A full-stack hotel booking platform with user authentication, room listings,booking management, and admin control panel.
+                A full-stack hotel booking platform with user authentication,
+                room listings,booking management, and admin control panel.
               </p>
               <div class="flex flex-wrap gap-2 mb-4">
                 <span
@@ -326,7 +323,9 @@
               <div class="mb-4"><span class="text-4xl">📊</span></div>
               <h3 class="text-2xl font-bold mb-3">CRUD Application</h3>
               <p class="text-gray-400 mb-4">
-              A full-stack CRUD application that allows users to create, read, update,and delete data with proper validation and database integration.
+                A full-stack CRUD application that allows users to create, read,
+                update,and delete data with proper validation and database
+                integration.
               </p>
               <div class="flex flex-wrap gap-2 mb-4">
                 <span
@@ -435,10 +434,10 @@
           "Building scalable, user-centric web applications with modern technologies and best practices",
         about_text:
           "I'm a passionate Full Stack Web Developer with expertise in building modern, scalable web applications. With a strong foundation in both frontend and backend technologies, I create seamless user experiences backed by robust server-side logic. I'm constantly learning and adapting to new technologies to deliver cutting-edge solutions that solve real-world problems.",
-        contact_email: "john.doe@example.com",
-        github_username: "johndoe",
-        linkedin_username: "johndoe",
-        footer_text: "© 2024 John Doe. All rights reserved.",
+        contact_email: "roya69516@gmail.com",
+        github_username: "Viper8991",
+        linkedin_username: "aniket-ranjan-roy-44544b274",
+        footer_text: "© 2026 Aniket Ranjan Roy. All rights reserved.",
         font_family: "Inter",
         font_size: 16,
       };
